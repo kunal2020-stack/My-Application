@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable-v24/ic_bell.xml" value="0.213" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/check.xml" value="0.1" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic.xml" value="0.284" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic_baseline_announcement.xml" value="0.1" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic_bell.xml" value="0.1405" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic_fast_forward.xml" value="0.284" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic_home.xml" value="0.213" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic_search.xml" value="0.213" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/drawable/ic_user.xml" value="0.213" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/layout/activity_myappca1.xml" value="0.25" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/layout/activity_nextscreen.xml" value="0.25" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/layout/activity_notification_manager_example.xml" value="0.30052083333333335" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/layout/nextscreen.xml" value="0.11481481481481481" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/menu/menu.xml" value="0.30052083333333335" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.1" />
+        <entry key="..\:/code/MyApplication/app/src/main/res/menu/menu_toolbar.xml" value="0.30052083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

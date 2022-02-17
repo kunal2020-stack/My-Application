@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--=======================Toolbar===============================-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+<!--=======================Image=================================-->
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="150sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/thiis">
+
+    </ImageView>
+
+<!--    ====================Alarm=================================-->
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="240sp"
+        android:layout_height="49sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80sp"
+        android:backgroundTint="#C8180B"
+        android:ems="10"
+        android:hint="       set your alarm"
+        android:textColorHint="#C8180B"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="150sp"
+        android:backgroundTint="#C8180B"
+        android:text="Alarm"/>
+
+    <Button
+        android:id="@+id/RStart"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="220sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C8180B"
+        android:text="Repeat" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="199sp"
+        android:layout_marginLeft="145sp"
+        android:backgroundTint="#C8180B"
+        android:text="cancel" />
+
+<!--===========================Cleaer Cahe================================-->
+
+    <TextView
+        android:id="@+id/tView"
+        android:layout_marginTop="300sp"
+        android:layout_marginLeft="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="130dp"
+        android:backgroundTint="#785553"
+        android:layout_marginTop="340sp"
+        android:text="Clear Cache" />
+
+    <ProgressBar
+        android:id="@+id/pBarCircular"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="141sp"
+        android:layout_marginTop="270sp"
+        android:minHeight="75sp"
+        android:minWidth="200sp"
+        android:max="100"
+        android:indeterminate="true"
+        android:progress="0"/>
+
+<!--===============================Show Notification======================-->
+
+    <Button
+        android:id="@+id/btnNotify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show My Notification"
+        android:layout_marginTop="430sp"
+        android:layout_marginLeft="100sp"
+        android:backgroundTint="#0A79D1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703" />
+
+<!--==============================Rating Bar==============================-->
+
+    <RatingBar
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="505dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="1dp"
+        android:numStars="5"
+        android:rating="1.5"
+        android:secondaryProgressTint="#C3B435"
+        android:progressTint="#D6C214"
+        android:progressBackgroundTint="#B8B5B5"
+        android:stepSize="0.5"
+        />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="545dp"
+        android:padding="10dp"
+        android:text="SUBMIT"
+        android:backgroundTint="#485949"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text_View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:textColor="@color/black"
+        android:text="Rate our all in one App" />
+
+<!--================================Bottom Navigation Bar===================-->
+
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+               />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@android:color/white"
+        app:itemIconSize="24dp"
+        app:elevation="2dp"
+        app:menu="@menu/menu_bottom_navigation"
+        app:itemIconTint="@color/selector_nav_item"
+        app:itemTextColor="@color/selector_nav_item" />
+
+</RelativeLayout>
